@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitMQConfig {
     
-    public static final String SUPPORT_TICKET_QUEUE = "support-tickets)";
+    public static final String SUPPORT_TICKET_QUEUE = "support-tickets";
     public static final String TICKET_ASSIGNMENTS_QUEUE = "ticket-assignments";
     public static final String TICKET_UPDATES_QUEUE = "ticket-updates";
     
